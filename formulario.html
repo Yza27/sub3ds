@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Registro</title>
+</head>
+<body>
+    <h2>Formulário de Cadastro</h2>
+    <form action="processar_registro.php" method="post">
+        
+        <label for="login">Login:</label><br>
+        <input type="text" id="login" name="login" required><br><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="text" id="telefone" name="telefone"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>
